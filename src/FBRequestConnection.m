@@ -1085,6 +1085,7 @@ typedef enum FBRequestConnectionState {
             if (!reparseError) {
                 *error = nil;
             }
+            [writer release];
         }
         [parser release];
     }
